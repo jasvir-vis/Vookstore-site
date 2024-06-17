@@ -1,0 +1,386 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: lightcyan;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  /* nav bar of all site */
+  .j{
+    background-color: black;
+  }
+
+  .logo a:hover{
+    background-color: beige;
+    padding: 2px;
+
+  }
+
+  .logobar {
+    background-color: lightcyan;
+    padding: 12px;
+  }
+
+  .logo h3 {
+    font-size: 34px;
+    font-weight: 600;
+    font-family: math;
+    color: rebeccapurple;
+  }
+  .video{
+    height: 500px;
+    width: 100%;
+  }
+
+  #bagicon {
+    color: orange;
+  }
+
+  .catagory {
+    font-family: serif;
+    font-weight: 600;
+  }
+
+  .package {
+    width: 80%;
+    margin-left: 280px;
+    position: absolute;
+  }
+
+  /* slider width and  height in only front page */
+  .carousel-item {
+    height: 500px;
+    font-family: serif;
+    font-weight: 600;
+  }
+
+  .first {
+    background: url("MTL-images/mikolaj-DCzpr09cTXY-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+
+  }
+
+  .second {
+    background: url("MTL-images/jessica-ruscello-OQSCtabGkSY-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+
+
+  }
+
+  .third {
+    background: url("MTL-images/dollar-gill-0V7_N62zZcU-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+
+  }
+
+  /* use for heading text */
+  .c-text{
+    color: rebeccapurple;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 35px;
+  }
+
+  .album {
+    display: flex;
+  }
+
+  .cards {
+    width: 100%;
+  }
+ 
+  .sidebar{
+    width: 15%;
+    height: 100vh;
+    background-color: light cyan;
+    position: absolute;
+    margin-left: 15px;
+    z-index: 2;
+    transition: all 1.5s ease-in-out;
+  }
+  .sidebar ul{
+    box-shadow: 2px 4px 4px 2px gray;
+    margin-left: 15px;
+    
+  }
+
+  /* slide bar with harmburger */
+  .king {
+    display: flex;
+  }
+
+  .burger {
+    width: 5%;
+
+  }
+
+  .line {
+    height: 4px;
+    width: 40px;
+    background-color: orange;
+    margin-bottom: 5px;
+  }
+  .sidebar li{
+    background-color: aliceblue;
+    list-style-type: none;
+    margin-left: 4px;
+    padding: 4px;
+  }
+  .sidebar li:hover{
+    background-color: orange;
+  }
+  .sidebar li a{
+    text-decoration: none;
+    color: brown;
+
+  }
+  .author{
+    background: white;
+    padding: 49px 10px 49px 10px;
+    border-radius: 12px;
+  }
+  .author:hover{
+    background-color: beige;
+  }
+  .card-text b{
+    font-size: larger;
+  }
+  .card-img-top{
+    padding: 18px 60px;
+  }
+  .wish{
+    margin-left: 70px;
+  }
+
+/* change color of text */
+  .change{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .banner{
+    padding: 10px;
+    margin: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .banner li{
+    list-style: none;
+
+  }
+  .banner2{
+    padding: 30px;
+    color: navy;
+  }
+  .auth1{
+    background: url("MTL-images/williamss.jpg");
+    background-position: top;
+    background-size: cover;
+  }
+  .auth2{
+    background: url("MTL-images/RK-Narayan.jpg");
+    background-position: top;
+    background-size: cover;
+
+  }
+  .auth3{
+    background: url("MTL-images/265423.jpg");
+    background-position: top;
+    background-size: cover;
+
+  }
+  .auth4{
+    background: url("MTL-images/rabindranath_tagore.webp");
+    background-position: top;
+    background-size: cover;
+
+  }
+
+   
+  .jas{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+  }
+  .jumbo{
+    background-color: black;
+    color: darkturquoise;
+    font-family: monospace;
+  }
+
+  .profile{
+    height: 60%;
+    width: 15%;
+    position: absolute;
+    top: 8%;
+    z-index: 2;
+    right: 0%;
+    background-color: gainsboro;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all 2s ease-in-out;
+  }
+  .profile li{
+    width: 100%;
+  }
+  .profile li a:hover{
+    background-color: black;
+    color: white;
+  }
+/* fiction website */
+.txt{
+  font-size: x-large;
+}
+
+
+
+.image-container {
+  position: relative;
+  margin-bottom: 20px;
+}
+.rotate-90 {
+  transform: rotate(30deg);
+}
+.rotate-180 {
+  transform: rotate(0deg);
+}
+.rotate-270 {
+  transform: rotate(15deg);
+}
+.flip-horizontal {
+  transform: scaleX(-1);
+}
+
+#btn{
+  height: 10%;
+  width: 10%;
+  background-color: black;
+}
+
+.javir .card{
+  transition: all 3s ease-in-out;
+}
+.jasvir .card:hover{
+  background-color: black;
+  color: white;
+  transform: scale(0.8);
+}
+
+/* .album .card{
+  transition: all ease-in-out;
+} */
+
+.album .card:hover{
+  background-color: black;
+  color: white;
+  transform: scale(1.1);
+
+}
+
+
+/* Animation part  */
+.scroll-first{
+  animation-name: first;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-play-state: running;
+}
+
+@keyframes first {
+  0%{
+    transform: translateX(-100%);
+  }
+  100%{
+    transform: translateX(0);
+  }
+}
+
+.scroll-second{
+  animation-name: second;
+  animation-duration: 3s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+  animation-play-state: running;
+}
+
+@keyframes second {
+  0%{
+    transform: scale(0.7);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+
+.scroll-del{
+  animation-name: del;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+}
+
+@keyframes del {
+  0%{
+    transform: translateX(-100%);
+  }
+  100%{
+    transform: translateX(0);
+  }
+}
+
+.scroll-24{
+  animation-name: twofour;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+}
+
+@keyframes twofour{
+  0%{
+    rotate: 0;
+  }
+  100%{
+    rotate: 360deg;
+  }
+}
+
+.scroll-m{
+  animation-name: m;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+}
+
+@keyframes m{
+  0%{
+    transform: scale(1);
+  }
+  100%{
+    transform: scale(1.2);
+  }
+}
+
+/* fiction-load site data */
+.item-img{
+  transition: all 3s ease-in-out;
+}
+.item-img:hover{
+  background-color: black;
+  transform: scale(0.8);
+}
+

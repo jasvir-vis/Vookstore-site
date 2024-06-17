@@ -1,0 +1,114 @@
+@media only screen and (min-width:300px) and (max-width:768px) {
+    .visible{
+        display: none;
+    }
+    .height{
+        width: 0;
+    }
+    .profile{
+        top: 27%;
+    }
+    .visiblity{
+        display: none;
+    }
+    .pheight{
+        width: 0;
+    }
+    .card{
+        width: 115%;
+    }
+    .para{
+        display: none;
+    }
+    .firstslider{
+        height: 300px;
+    }
+    #c{
+        height: 200px;
+        width: 250px;
+
+    }
+    #a{
+        height: 100px;
+        width: 220px;
+
+    }
+    .jasvir p{
+        display: none;
+    }
+    .profile{
+        width: 51%;
+        top: 20%;
+    }
+    .sidebar{
+        width: 50%;
+    }
+    .aj{
+        height: 312px;
+    }
+    /* fiction books page */
+    #fic-img{
+        height: 200px;
+        width: 350px;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:1280px){
+    .visible{
+        opacity: 0;
+    }
+    .height{
+        width: 0;
+    }
+    .sidebar{
+        width: 20%;
+    }
+    .profile{
+        width: 57%;
+    }
+    .visiblity{
+        opacity: 0;
+    }
+    .pheight{
+        width: 0;
+    }
+    #a{
+        display: none;
+    }
+    .rel3,.rel4{
+        display: none;
+    }
+    #tablet{
+        justify-content: space-around;
+    }
+
+    #tab-2{
+        width: 212px;
+        height: 8rem;
+    }
+    #tab-3{
+        width: 212px;
+        height: 8rem;
+    }
+    #fic-img{
+     height: 300px;
+     width: 680px;
+    }
+
+    /*  */
+}
+
+@media only screen and (min-width:1280px){
+    .visible{
+        opacity: 0;
+    }
+    .height{
+        width: 0;
+    }
+    .visiblity{
+        opacity: 0;
+    }
+    .pheight{
+        width: 0;
+    }
+
+}
